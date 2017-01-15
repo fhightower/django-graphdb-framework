@@ -1,0 +1,5 @@
+{% if question %}
+    <p>You are voting on the question: {{ question.question_text }}.</p>
+{% else %}
+    <p>This question is not available for voting.</p>
+{% endif %}
